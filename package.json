@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"scripts": {
 		"doc": "jsdoc -c jsdoc.conf.json",
-		"docmd": "jsdoc2md 'src/utils/**/*.jsx'  > API.md",
+		"docmd": "jsdoc2md 'src/utils/**/*.jsx'  > README.md",
 		"doctoc": "node_modules/doctoc/doctoc.js"
 	},
 	"type": "module",
