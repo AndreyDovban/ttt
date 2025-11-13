@@ -1,0 +1,43 @@
+{
+	"tags": {
+		"allowUnknownTags": true,
+		"dictionaries": ["jsdoc", "closure"]
+	},
+	"source": {
+		"include": ["src"],
+		"includePattern": ".+\\.(js|jsx|ts|tsx)$",
+		"excludePattern": "(node_modules/|docs)"
+	},
+	"plugins": ["plugins/markdown", "node_modules/jsdoc-babel"],
+	"templates": {
+		"cleverLinks": true,
+		"monospaceLinks": true,
+		"systemName": "Granulex UI",
+		"footer": "",
+		"copyright": "© ООО «МД Информационные Cистемы»",
+		"includeDate": false,
+		"navType": "inline",
+		"theme": "slate",
+		"linenums": true,
+		"collapseSymbols": true,
+		"outputSourceFiles": true,
+		"outputSourcePath": true,
+		"syntaxTheme": "dark",
+		"sort": false,
+		"search": false,
+		"default": {
+			"staticFiles": {
+				"paths": ["./tutorials/"]
+			}
+		}
+	},
+	"opts": {
+		"encoding": "utf8",
+		"destination": "Структура кода клиентской части/",
+		"recurse": true,
+		"nocolor": true,
+		"readme": "./autodocs.md",
+		"tutorials": "./tutorials",
+		"template": "./vendor/ink-docstrap/template"
+	}
+}
