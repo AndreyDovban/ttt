@@ -1,71 +1,71 @@
 ## Modules
 
 <dl>
-<dt><a href="#helpers.module_buildTree">buildTree</a></dt>
+<dt><a href="#module_helpers/buildTree">helpers/buildTree</a></dt>
 <dd><p>Функция преобразования массива изменённых объектов</p>
 <p>Изменяет полученный с сервера список изменённых объектов в древовидном виде подобно структуре ldap каталога</p>
 </dd>
-<dt><a href="#helpers.module_buildTreeFinal">buildTreeFinal</a></dt>
+<dt><a href="#module_helpers/buildTreeFinal">helpers/buildTreeFinal</a></dt>
 <dd><p>Функция преобразования &quot;dn&quot; объекта</p>
 <p>Преобразовывает &quot;dn&quot; объекта в массив узлов начинающегося с самого глубоко-вложенного подобно узлам ldap каталога</p>
 </dd>
-<dt><a href="#helpers.module_checkCode">checkCode</a></dt>
+<dt><a href="#module_helpers/checkCode">helpers/checkCode</a></dt>
 <dd><p>Функция проверки кода ответа</p>
 <p>Обрабатывает код ответа от сервера и обновляет интерфейс пользователя соответствующим образом</p>
 </dd>
-<dt><a href="#helpers.module_checkCodeAllApi">checkCodeAllApi</a></dt>
+<dt><a href="#module_helpers/checkCodeAllApi">helpers/checkCodeAllApi</a></dt>
 <dd></dd>
 </dl>
 
-<a name="helpers.module_buildTree"></a>
+<a name="module_helpers/buildTree"></a>
 
-## buildTree
+## helpers/buildTree
 Функция преобразования массива изменённых объектов
 
 Изменяет полученный с сервера список изменённых объектов в древовидном виде подобно структуре ldap каталога
 
-<a name="helpers.module_buildTree.buildTree"></a>
+<a name="module_helpers/buildTree.buildTree"></a>
 
-### buildTree.buildTree(objects) ⇒ <code>Object</code>
+### helpers/buildTree.buildTree(objects) ⇒ <code>Object</code>
 Функция преобразования массива изменённых объектов в виде древовидного объекта
 
-**Kind**: static method of [<code>buildTree</code>](#helpers.module_buildTree)  
+**Kind**: static method of [<code>helpers/buildTree</code>](#module_helpers/buildTree)  
 
 | Param | Type | Description |
 | --- | --- | --- |
 | objects | <code>Array</code> | Массив изменённых объектов |
 
-<a name="helpers.module_buildTreeFinal"></a>
+<a name="module_helpers/buildTreeFinal"></a>
 
-## buildTreeFinal
+## helpers/buildTreeFinal
 Функция преобразования "dn" объекта
 
 Преобразовывает "dn" объекта в массив узлов начинающегося с самого глубоко-вложенного подобно узлам ldap каталога
 
-<a name="helpers.module_buildTreeFinal.buildTreeFinal"></a>
+<a name="module_helpers/buildTreeFinal.buildTreeFinal"></a>
 
-### buildTreeFinal.buildTreeFinal(objects) ⇒ <code>Object</code>
+### helpers/buildTreeFinal.buildTreeFinal(objects) ⇒ <code>Object</code>
 Функция преобразования массива изменённых объектов в виде древовидного объекта
 
-**Kind**: static method of [<code>buildTreeFinal</code>](#helpers.module_buildTreeFinal)  
+**Kind**: static method of [<code>helpers/buildTreeFinal</code>](#module_helpers/buildTreeFinal)  
 
 | Param | Type | Description |
 | --- | --- | --- |
 | objects | <code>Array</code> | Массив изменённых объектов |
 
-<a name="helpers.module_checkCode"></a>
+<a name="module_helpers/checkCode"></a>
 
-## checkCode
+## helpers/checkCode
 Функция проверки кода ответа
 
 Обрабатывает код ответа от сервера и обновляет интерфейс пользователя соответствующим образом
 
-<a name="helpers.module_checkCode.checkCode"></a>
+<a name="module_helpers/checkCode.checkCode"></a>
 
-### checkCode.checkCode(res, error_401, error_404, error_500, error, setOpenModal, setMessageModal, setStatusCopyProc) ⇒ <code>boolean</code>
+### helpers/checkCode.checkCode(res, error_401, error_404, error_500, error, setOpenModal, setMessageModal, setStatusCopyProc) ⇒ <code>boolean</code>
 Функция проверки кода ответа
 
-**Kind**: static method of [<code>checkCode</code>](#helpers.module_checkCode)  
+**Kind**: static method of [<code>helpers/checkCode</code>](#module_helpers/checkCode)  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -78,15 +78,15 @@
 | setMessageModal | <code>function</code> | Функция изменения атома состояния - текст сообщения для пользователя |
 | setStatusCopyProc | <code>function</code> | Функция изменения атома состояния - статус запущенного процесс |
 
-<a name="helpers.module_checkCodeAllApi"></a>
+<a name="module_helpers/checkCodeAllApi"></a>
 
-## checkCodeAllApi
-<a name="helpers.module_checkCodeAllApi.checkCodeAllApi"></a>
+## helpers/checkCodeAllApi
+<a name="module_helpers/checkCodeAllApi.checkCodeAllApi"></a>
 
-### checkCodeAllApi.checkCodeAllApi(response, error, error_401, error_404, error_500, setMessageModal, setOpenModalState) ⇒ <code>boolean</code>
+### helpers/checkCodeAllApi.checkCodeAllApi(response, error, error_401, error_404, error_500, setMessageModal, setOpenModalState) ⇒ <code>boolean</code>
 Функция проверки кода статуса ответа для запросов без процесса
 
-**Kind**: static method of [<code>checkCodeAllApi</code>](#helpers.module_checkCodeAllApi)  
+**Kind**: static method of [<code>helpers/checkCodeAllApi</code>](#module_helpers/checkCodeAllApi)  
 
 | Param | Type | Description |
 | --- | --- | --- |
