@@ -1,19 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [Modules](#modules)
-- [buildTree](#buildtree)
-  - [buildTree.buildTree(objects) ⇒ <code>Object</code>](#buildtreebuildtreeobjects-%E2%87%92-codeobjectcode)
-- [buildTreeFinal](#buildtreefinal)
-  - [buildTreeFinal.buildTreeFinal(objects) ⇒ <code>Object</code>](#buildtreefinalbuildtreefinalobjects-%E2%87%92-codeobjectcode)
-- [checkCode](#checkcode)
-  - [checkCode.checkCode(res, error_401, error_404, error_500, error, setOpenModal, setMessageModal, setStatusCopyProc) ⇒ <code>boolean</code>](#checkcodecheckcoderes-error_401-error_404-error_500-error-setopenmodal-setmessagemodal-setstatuscopyproc-%E2%87%92-codebooleancode)
-- [checkCodeAllApi](#checkcodeallapi)
-  - [checkCodeAllApi.checkCodeAllApi(response, error, error_401, error_404, error_500, setMessageModal, setOpenModalState) ⇒ <code>boolean</code>](#checkcodeallapicheckcodeallapiresponse-error-error_401-error_404-error_500-setmessagemodal-setopenmodalstate-%E2%87%92-codebooleancode)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Modules
 
 <dl>
