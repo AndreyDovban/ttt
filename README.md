@@ -11,7 +11,8 @@
 <dd><p>Функция проверки кода ответа</p>
 </dd>
 <dt><a href="#module_helpers/checkCodeAllApi">helpers/checkCodeAllApi</a></dt>
-<dd></dd>
+<dd><p>Функция проверки кода статуса ответа для запросов без процесса</p>
+</dd>
 </dl>
 
 <a name="module_helpers/buildTree"></a>
@@ -78,10 +79,12 @@
 <a name="module_helpers/checkCodeAllApi"></a>
 
 ## helpers/checkCodeAllApi
+Функция проверки кода статуса ответа для запросов без процесса
+
 <a name="module_helpers/checkCodeAllApi.checkCodeAllApi"></a>
 
 ### helpers/checkCodeAllApi.checkCodeAllApi(response, error, error_401, error_404, error_500, setMessageModal, setOpenModalState) ⇒ <code>boolean</code>
-ttt
+Функция проверки кода статуса ответа для запросов без процесса
 
 **Kind**: static method of [<code>helpers/checkCodeAllApi</code>](#module_helpers/checkCodeAllApi)  
 
