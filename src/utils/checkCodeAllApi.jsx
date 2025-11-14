@@ -1,9 +1,9 @@
 /**
- * @module helpers.checkCodeAllApi
- *
  * Функция проверки кода статуса ответа для запросов без процесса
  *
+ * @module helpers.checkCodeAllApi
  */
+
 /**
  * Функция проверки кода статуса ответа для запросов без процесса
  * @param {Object} response Объект ответа на запрос
