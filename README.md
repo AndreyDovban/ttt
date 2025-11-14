@@ -10,11 +10,7 @@
 <dt><a href="#module_helpers/checkCode">helpers/checkCode</a></dt>
 <dd><p>Функция проверки кода ответа</p>
 </dd>
-<dt><a href="#helpers.checkCodeAllApi
-
-Функция проверки кода статуса ответа для запросов без процессаmodule_">helpers.checkCodeAllApi
-
-Функция проверки кода статуса ответа для запросов без процесса</a></dt>
+<dt><a href="#module_helpers/checkCodeAllApi">helpers/checkCodeAllApi</a></dt>
 <dd></dd>
 </dl>
 
@@ -79,10 +75,23 @@
 | setMessageModal | <code>function</code> | Функция изменения атома состояния - текст сообщения для пользователя |
 | setStatusCopyProc | <code>function</code> | Функция изменения атома состояния - статус запущенного процесс |
 
-<a name="helpers.checkCodeAllApi
+<a name="module_helpers/checkCodeAllApi"></a>
 
-Функция проверки кода статуса ответа для запросов без процессаmodule_"></a>
+## helpers/checkCodeAllApi
+<a name="module_helpers/checkCodeAllApi.checkCodeAllApi"></a>
 
-## helpers.checkCodeAllApi
+### helpers/checkCodeAllApi.checkCodeAllApi(response, error, error_401, error_404, error_500, setMessageModal, setOpenModalState) ⇒ <code>boolean</code>
+ttt
 
-Функция проверки кода статуса ответа для запросов без процесса
+**Kind**: static method of [<code>helpers/checkCodeAllApi</code>](#module_helpers/checkCodeAllApi)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| response | <code>Object</code> | Объект ответа на запрос |
+| error | <code>string</code> | Текст ошибки |
+| error_401 | <code>string</code> | Текст ошибки |
+| error_404 | <code>string</code> | Текст ошибки |
+| error_500 | <code>string</code> | Текст ошибки |
+| setMessageModal | <code>function</code> | Функция изменения атома состояния - текст сообщения для пользователя |
+| setOpenModalState | <code>function</code> | Функция изменения атома состояния - скрытие / показ модального окна |
+
