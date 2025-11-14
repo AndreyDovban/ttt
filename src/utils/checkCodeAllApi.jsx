@@ -1,7 +1,7 @@
 /**
  * Функция проверки кода статуса ответа для запросов без процесса
  *
- * @module helpers.checkCodeAllApi
+ * @module helpers/checkCodeAllApi
  */
 
 /**
